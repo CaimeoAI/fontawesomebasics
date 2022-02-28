@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 2rem;
+    font-size: 20px;
+    color: black;
+}
+
+i {
+    margin: 2rem;
+    font-size: 20px;
+    color: black;
+}
+
+#facebook::before {
+    font-family: "FontAwesome";
+    content: "\f082";
+    color: #4267B2;
+}
+
+#googleplay::after {
+    font-family: "FontAwesome";
+    content: "\f3ab";
+}
+
+#youtube::after {
+    font-family: "FontAwesome";
+    content: "\f167";
+    color: #FF0000;
+}   
+
+.fa-discord {
+    color: #5865F2;
+}
+
+.fa-discord span {
+    color: black;
+    font-weight: bold;
+}
